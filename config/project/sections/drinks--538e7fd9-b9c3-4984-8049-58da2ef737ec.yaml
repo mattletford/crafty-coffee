@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: drinks
+name: Drinks
+propagationMethod: all
+siteSettings:
+  7766dfc6-e337-4bb7-9993-43693df43814: # https://crafty-coffee.nitro
+    enabledByDefault: true
+    hasUrls: true
+    template: drinks/_entry
+    uriFormat: 'drinks/{slug}'
+type: channel

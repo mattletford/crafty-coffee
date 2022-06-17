@@ -1,0 +1,19 @@
+columnSuffix: vlssfuox
+contentColumnType: text
+fieldGroup: 36124581-0cb7-4794-92f2-477b3b6407f1 # Styles
+handle: styleDescription
+instructions: null
+name: 'Style Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 1
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

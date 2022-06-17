@@ -1,0 +1,19 @@
+columnSuffix: djgnbfnu
+contentColumnType: text
+fieldGroup: eae31e4f-e4fa-4ac4-8f17-fa101b74b9e4 # About
+handle: subtitle
+instructions: null
+name: Subtitle
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

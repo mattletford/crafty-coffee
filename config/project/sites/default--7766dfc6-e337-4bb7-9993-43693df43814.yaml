@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: 'https://crafty-coffee.nitro'
+primary: true
+siteGroup: 62825996-fcc6-47f2-a2e1-0c24ee55f17a # https://crafty-coffee.nitro
+sortOrder: 1

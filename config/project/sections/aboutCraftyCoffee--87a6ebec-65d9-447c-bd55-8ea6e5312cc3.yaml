@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: aboutCraftyCoffee
+name: 'About Crafty Coffee'
+propagationMethod: all
+siteSettings:
+  7766dfc6-e337-4bb7-9993-43693df43814: # https://crafty-coffee.nitro
+    enabledByDefault: true
+    hasUrls: true
+    template: about/_entry
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: null
+  uid: bd6f3538-cc7d-4481-b166-186730e6de40
+type: structure

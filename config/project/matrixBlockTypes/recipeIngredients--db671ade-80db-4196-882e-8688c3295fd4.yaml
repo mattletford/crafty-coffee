@@ -1,0 +1,81 @@
+field: 2bec25df-70fb-446d-85e7-84265abffea8 # Recipe Contents
+fieldLayouts:
+  05496c5a-b658-43ab-9f23-85c176e308da:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: c446e259-2e55-481e-aae8-6c5a293c0e1b # Ingredients
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5e855a42-7c37-4358-8f66-401fd7333d6c
+            warning: null
+            width: 100
+        name: Content
+        uid: 08fbdc13-b248-492f-9aba-1a6ec39f6d85
+fields:
+  c446e259-2e55-481e-aae8-6c5a293c0e1b: # Ingredients
+    columnSuffix: bcdenfsi
+    contentColumnType: text
+    fieldGroup: null
+    handle: ingredients
+    instructions: null
+    name: Ingredients
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Amount
+                -
+                  - handle
+                  - amount
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Ingredient
+                -
+                  - handle
+                  - ingredient
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - ''
+            -
+              - col2
+              - ''
+      maxRows: null
+      minRows: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+handle: recipeIngredients
+name: 'Recipe Ingredients'
+sortOrder: 5

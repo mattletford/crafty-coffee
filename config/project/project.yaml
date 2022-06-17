@@ -1,0 +1,97 @@
+dateModified: 1655463263
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      key: singles
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      disabled: false
+      key: 'section:538e7fd9-b9c3-4984-8049-58da2ef737ec' # Drinks
+      tableAttributes:
+        - 'field:41dcd1bb-f56a-4ace-a075-bfa5071146e0' # Drink Image
+        - link
+      type: native
+    -
+      key: 'section:6c77b754-becc-40bc-848f-e660f2cb3892' # News
+      type: native
+email:
+  fromEmail: matt@tokyo.uk
+  fromName: 'https://crafty-coffee.nitro'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  drinks:
+    hasUrls: true
+    name: Drinks
+    settings:
+      path: '@webroot/images/uploads/drinks'
+    type: craft\fs\Local
+    url: '@web/images/uploads/drinks'
+meta:
+  __names__:
+    0cd08473-3124-43b3-aa07-c34b31125923: 'Recipe Copy' # Recipe Copy
+    2bec25df-70fb-446d-85e7-84265abffea8: 'Recipe Contents' # Recipe Contents
+    2d831a51-1c29-46dd-beb1-b1d4709fa14f: Excerpt # Excerpt
+    3b7188c6-040f-4a25-aae0-373a0b7cd1ed: Subtitle # Subtitle
+    3e8ea4e2-bb7e-4a82-9c82-917015fc9706: Default # Default
+    4cf460b5-ef32-4656-8577-7d9a4541bf29: Homepage # Homepage
+    4d70a32c-8194-4cef-962c-5d9247d25c24: 'Page Copy' # Page Copy
+    4e0d9b65-0771-4607-9430-fb2968d71a97: Drinks # Drinks
+    5bb91ac8-5382-4b06-b0f2-fa5f43067124: News # News
+    6a11752f-7155-4ebc-ba0a-6cf73c6f9a81: Recipes # Recipes
+    6c77b754-becc-40bc-848f-e660f2cb3892: News # News
+    7d047646-20fa-4001-a00d-e5163dee34ba: Default # Default
+    7d6d0ab6-9f22-4dd5-89c3-3ca25bad50a8: Default # Default
+    7ded937d-9af6-4268-b3e8-b664692ca585: 'Tip Content' # Tip Content
+    7f3f0d3c-e37a-4fe4-b82f-d742dab3aae0: 'Page Intro' # Page Intro
+    9b316ed4-9c69-4686-959b-039365b52aaa: 'Image Caption' # Image Caption
+    9d0dcec3-f23e-4071-b035-8ed822d0c83a: 'Drink Recipe' # Drink Recipe
+    41dcd1bb-f56a-4ace-a075-bfa5071146e0: 'Drink Image' # Drink Image
+    055bfbc9-fe17-4f14-b814-a663be275703: 'Drink Style' # Drink Style
+    61cef2c5-6af7-4085-9a2c-4add66953525: '840x200 Thumb' # 840x200 Thumb
+    68db562f-1059-47d2-a259-51fc750acea7: Common # Common
+    87a6ebec-65d9-447c-bd55-8ea6e5312cc3: 'About Crafty Coffee' # About Crafty Coffee
+    89a62385-6ef7-4c89-81af-f5018c4a2602: Recipes # Recipes
+    538e7fd9-b9c3-4984-8049-58da2ef737ec: Drinks # Drinks
+    5404e603-2bc9-421c-a741-11496b3c6d1b: Default # Default
+    05451c21-a706-4b8c-b916-0d1e79630294: 'Style Description' # Style Description
+    7766dfc6-e337-4bb7-9993-43693df43814: 'https://crafty-coffee.nitro' # https://crafty-coffee.nitro
+    9546d007-a892-4779-8a67-ea55e74894bb: 'Steps Content' # Steps Content
+    153214df-f172-45a5-86c4-780f0b7c56b0: 'Recipe Steps' # Recipe Steps
+    0739007a-f898-4147-8244-a20652cbba5f: Image # Image
+    36124581-0cb7-4794-92f2-477b3b6407f1: Styles # Styles
+    62825996-fcc6-47f2-a2e1-0c24ee55f17a: 'https://crafty-coffee.nitro' # https://crafty-coffee.nitro
+    b0ed0513-79bb-46c4-bd81-6125cb8df884: 'Recipe Image' # Recipe Image
+    c446e259-2e55-481e-aae8-6c5a293c0e1b: Ingredients # Ingredients
+    c3335eb3-0e01-4e04-a3e2-0448ea9ec4f8: 'Drink Styles' # Drink Styles
+    ccc3d6f9-cddd-42b8-bb2c-db2aa8e619a2: Homepage # Homepage
+    d2e1b3a3-71e2-459d-b3f8-0013d989580f: 'News Body' # News Body
+    d75c6539-a532-4c44-99c6-512436ef9019: 'Recipe Tip' # Recipe Tip
+    d3428df1-2a59-4316-9b27-5b84ef3e9ba6: 'Body Content' # Body Content
+    d7772fb0-3ec6-42c6-9a06-b029e5195dc0: Drinks # Drinks
+    db671ade-80db-4196-882e-8688c3295fd4: 'Recipe Ingredients' # Recipe Ingredients
+    e35cafc7-338e-4529-9f77-8f2e155c10f8: 'Steps Title' # Steps Title
+    e78b6bb6-7e20-490c-8ea4-b2bffdc7f253: Introduction # Introduction
+    eae31e4f-e4fa-4ac4-8f17-fa101b74b9e4: About # About
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: 'https://crafty-coffee.nitro'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
